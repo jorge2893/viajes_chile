@@ -29,21 +29,26 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container px-4">
+      <a class="navbar-brand" href="#"> <img src="./assets/img/favicon-32x32.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" aria-current="page" href="#">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Quienes Somos</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Destacados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
           </li>
         </ul>
       </div>
@@ -82,43 +87,52 @@
   </div>
   <!-- agregar info -->
   <main>
+    <section>
+      <h3 class="text-white text-center pt-5">
+        ¿QUIENES SOMOS?
+      </h3>
+    
     <div class="row row-cols-1 row-cols-md-3 g-4 pt-5 pb-5">
       <div class="col">
-        <div class="card h-100">
+        <div class="card h-100 border-dark">
           <div class="text-center">
             <div class="card-header bg-info text-white">
               <i class="fa-solid fa-plane"></i>
             </div>
           </div>
-          <div class="card-body text-bg-dark border-dark">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat rhoncus
-              sapien. Phasellus placerat lacus at ullamcorper semper. Fusce vel fermentum lacus. Curabitur sodales, nunc
-              sit amet lobortis blandit, velit massa luctus urna, sit amet lacinia nibh ante in odio. Vivamus nec
-              euismod mi. Cras ornare dui eget lectus porta ornare. Suspendisse malesuada tempor nisl ac placerat.
-              Aliquam faucibus ullamcorper massa, commodo mattis lorem rutrum sed. Vestibulum sit amet turpis sed nisi
-              luctus ultrices a rutrum velit. Nullam consequat rhoncus mi quis imperdiet. Praesent at nisi dui.Nulla non
-              cursus arcu. Proin sit amet dapibus tellus. Pellentesque quis malesuada nulla. Mauris tempor lacinia
-              ultrices. Etiam nec est in est efficitur egestas sit amet at nulla. Phasellus hendrerit ligula ac odio
-              venenatis, varius suscipit augue congue. Sed tempor odio ullamcorper, lobortis lectus faucibus, feugiat
-              mauris. Fusce ut accumsan nisi, accumsan pretium ligula. Sed est magna, porta quis volutpat vel, interdum
-              quis nisl. Integer odio sem, ornare eu augue sit.</p>
+          <div id="tarjeta1">
+            <div class="card-body text-white">
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat rhoncus
+                sapien. Phasellus placerat lacus at ullamcorper semper. Fusce vel fermentum lacus. Curabitur sodales, nunc
+                sit amet lobortis blandit, velit massa luctus urna, sit amet lacinia nibh ante in odio. Vivamus nec
+                euismod mi. Cras ornare dui eget lectus porta ornare. Suspendisse malesuada tempor nisl ac placerat.
+                Aliquam faucibus ullamcorper massa, commodo mattis lorem rutrum sed. Vestibulum sit amet turpis sed nisi
+                luctus ultrices a rutrum velit. Nullam consequat rhoncus mi quis imperdiet. Praesent at nisi dui.Nulla non
+                cursus arcu. Proin sit amet dapibus tellus. Pellentesque quis malesuada nulla. Mauris tempor lacinia
+                ultrices. Etiam nec est in est efficitur egestas sit amet at nulla. Phasellus hendrerit ligula ac odio
+                venenatis, varius suscipit augue congue. Sed tempor odio ullamcorper, lobortis lectus faucibus, feugiat
+                mauris. Fusce ut accumsan nisi, accumsan pretium ligula. Sed est magna, porta quis volutpat vel, interdum
+                quis nisl. Integer odio sem, ornare eu augue sit.</p>
+            </div>
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card h-100">
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat rhoncus
-              sapien. Phasellus placerat lacus at ullamcorper semper. Fusce vel fermentum lacus. Curabitur sodales, nunc
-              sit amet lobortis blandit, velit massa luctus urna, sit amet lacinia nibh ante in odio. Vivamus nec
-              euismod mi. Cras ornare dui eget lectus porta ornare. Suspendisse malesuada tempor nisl ac placerat.
-              Aliquam faucibus ullamcorper massa, commodo mattis lorem rutrum sed. Vestibulum sit amet turpis sed nisi
-              luctus ultrices a rutrum velit. Nullam consequat rhoncus mi quis imperdiet. Praesent at nisi dui.Nulla non
-              cursus arcu. Proin sit amet dapibus tellus. Pellentesque quis malesuada nulla. Mauris tempor lacinia
-              ultrices. Etiam nec est in est efficitur egestas sit amet at nulla. Phasellus hendrerit ligula ac odio
-              venenatis, varius suscipit augue congue. Sed tempor odio ullamcorper, lobortis lectus faucibus, feugiat
-              mauris. Fusce ut accumsan nisi, accumsan pretium ligula. Sed est magna, porta quis volutpat vel, interdum
-              quis nisl. Integer odio sem, ornare eu augue sit</p>
+        <div class="card h-100 border-dark">
+          <div id="tarjeta2">
+            <div class="card-body text-white">
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat rhoncus
+                sapien. Phasellus placerat lacus at ullamcorper semper. Fusce vel fermentum lacus. Curabitur sodales, nunc
+                sit amet lobortis blandit, velit massa luctus urna, sit amet lacinia nibh ante in odio. Vivamus nec
+                euismod mi. Cras ornare dui eget lectus porta ornare. Suspendisse malesuada tempor nisl ac placerat.
+                Aliquam faucibus ullamcorper massa, commodo mattis lorem rutrum sed. Vestibulum sit amet turpis sed nisi
+                luctus ultrices a rutrum velit. Nullam consequat rhoncus mi quis imperdiet. Praesent at nisi dui.Nulla non
+                cursus arcu. Proin sit amet dapibus tellus. Pellentesque quis malesuada nulla. Mauris tempor lacinia
+                ultrices. Etiam nec est in est efficitur egestas sit amet at nulla. Phasellus hendrerit ligula ac odio
+                venenatis, varius suscipit augue congue. Sed tempor odio ullamcorper, lobortis lectus faucibus, feugiat
+                mauris. Fusce ut accumsan nisi, accumsan pretium ligula. Sed est magna, porta quis volutpat vel, interdum
+                quis nisl. Integer odio sem, ornare eu augue sit</p>
+            </div>
           </div>
           <div class="text-center">
             <div class="card-footer bg-info text-white">
@@ -128,13 +142,14 @@
         </div>
       </div>
       <div class="col">
-        <div class="card h-100"> 
+        <div class="card h-100 border-dark"> 
           <div class="text-center">
             <div class="card-header bg-info text-white">
               <i class="fa-solid fa-route"></i>
             </div>
         </div>
-          <div class="card-body">
+        <div id="tarjeta3">
+          <div class="card-body text-white">
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat rhoncus
               sapien. Phasellus placerat lacus at ullamcorper semper. Fusce vel fermentum lacus. Curabitur sodales, nunc
               sit amet lobortis blandit, velit massa luctus urna, sit amet lacinia nibh ante in odio. Vivamus nec
@@ -148,14 +163,20 @@
               quis nisl. Integer odio sem, ornare eu augue sit</p>
           </div>
         </div>
+        </div>
       </div>
     </div>
+  </section>
+  <section>
+    <h3 class="text-white text-center pb-5">
+      DESTACADOS
+    </h3>
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
         <div class="card h-100">
-          <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+          <img src="./assets/img/card1.jpg" class="card-img-top" alt="..." width="50%">
+          <div class="card-body text-bg-info text-white">
+            <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat rhoncus
               sapien. Phasellus placerat lacus at ullamcorper semper. Fusce vel fermentum lacus.</p>
           </div>
@@ -163,9 +184,9 @@
       </div>
       <div class="col">
         <div class="card h-100">
-          <img src="./assets/img/card2.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+          <img src="./assets/img/card2.jpg" class="card-img-top" alt="..." width="50%">
+          <div class="card-body text-bg-info text-white">
+            <h5 class="card-title">Consectetur adipiscing elit</h5>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat rhoncus
               sapien. Phasellus placerat lacus at ullamcorper semper. Fusce vel fermentum lacus.</p>
           </div>
@@ -173,9 +194,10 @@
       </div>
       <div class="col">
         <div class="card h-100">
-          <img src="./assets/img/card3.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+          <img src="./assets/img/card3.jpg" class="card-img-top" alt="..." width="50%">
+          <div class="card-body text-bg-info text-white">
+            <h5 class="card-title">Proin consequat rhoncus
+              sapien. Phasellus placerat lacus</h5>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat rhoncus
               sapien. Phasellus placerat lacus at ullamcorper semper. Fusce vel fermentum lacus.</p>
           </div>
@@ -183,22 +205,39 @@
       </div>
       <div class="col">
         <div class="card h-100">
-          <img src="./assets/img/card4.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+          <img src="./assets/img/card4.jpg" class="card-img-top" alt="..." width="50%">
+          <div class="card-body text-bg-info text-white">
+            <h5 class="card-title">At ullamcorper semper. Fusce vel</h5>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat rhoncus
               sapien. Phasellus placerat lacus at ullamcorper semper. Fusce vel fermentum lacus.</p>
           </div>
         </div>
       </div>
     </div>
+  </section>
   </main>
-  <section>
-    <!-- agregar card -->
-  </section>
-  <section>
-    <!-- agregar input -->
-  </section>
+  <section id="Contacto" class="container my-5">
+
+    <h2 class="display-4 text-center my-4 text-white">Contacto</h2>
+    <form>
+        <div class="form-group mb-4">
+            <label class="mb-2 text-white">Nombre</label>
+            <input class="form-control" placeholder="">
+        </div>
+        <div class="form-group mb-4">
+            <label class="mb-2 text-white">Asunto</label>
+            <input class="form-control" placeholder="" />
+        </div>
+        <div class="form-group">
+            <label class="mb-2 text-white">Mensaje</label>
+            <textarea class="form-control" placeholder=""></textarea>
+        </div>
+        <div class="my-3">
+            <button class="btn btn-info text-light">Enviar</button>
+        </div>
+    </form>
+
+</section>
   <footer>
 
   </footer>
