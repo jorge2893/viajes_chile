@@ -1,0 +1,9 @@
+$("#avion").click(function(){
+    $("#tarjeta1").toggle();
+})
+$("#montaña").click(function(){
+    $("#tarjeta2").toggle();
+})
+$("#ruta").click(function(){
+    $("#tarjeta3").toggle();
+})

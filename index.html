@@ -3,8 +3,8 @@
 
 <head>
   <meta name="author" content="Jorge Solis San Martin">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <meta name="description" content="Informacion sobre viajes que se realizan en chile">
+  <meta name="keywords" content="viajes, chile, planes, lugares turisticos">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- boostrap cdn -->
@@ -65,13 +65,13 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+        <img src="./assets/img/carousel1.jpg" class="d-block" alt="." width="100%">
       </div>
       <div class="carousel-item">
-        <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+        <img src="./assets/img/carousel2.jpg" class="d-block" alt="." width="100%">
       </div>
       <div class="carousel-item">
-        <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+        <img src="./assets/img/carousel3.jpg" class="d-block" alt="." width="100%">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -85,23 +85,21 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <!-- agregar info -->
   <main>
+    <!-- arreglar  -->
     <section>
       <h3 class="text-white text-center pt-5">
         ¿QUIENES SOMOS?
       </h3>
-
-      <div class="row row-cols-1 row-cols-md-3 g-4 pt-5 pb-5">
+      <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 pt-5 pb-5">
         <div class="col">
-          <div class="card h-100 border-dark">
+          <div id="avion" class="card border-dark">
             <div class="text-center">
               <div class="card-header bg-info text-white">
                 <i class="fa-solid fa-plane"></i>
               </div>
             </div>
-            <div id="tarjeta1">
-              <div class="card-body text-white">
+              <div id="tarjeta1" class="card-body text-white">
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat rhoncus
                   sapien. Phasellus placerat lacus at ullamcorper semper. Fusce vel fermentum lacus. Curabitur sodales,
                   nunc
@@ -119,11 +117,10 @@
                   interdum
                   quis nisl. Integer odio sem, ornare eu augue sit.</p>
               </div>
-            </div>
           </div>
         </div>
         <div class="col">
-          <div class="card h-100 border-dark">
+          <div class="card border-dark">
             <div id="tarjeta2">
               <div class="card-body text-white">
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat rhoncus
@@ -144,7 +141,7 @@
                   quis nisl. Integer odio sem, ornare eu augue sit</p>
               </div>
             </div>
-            <div class="text-center">
+            <div id="montaña" class="text-center">
               <div class="card-footer bg-info text-white">
                 <i class="fa-solid fa-mountain"></i>
               </div>
@@ -152,9 +149,9 @@
           </div>
         </div>
         <div class="col">
-          <div class="card h-100 border-dark">
+          <div class="card border-dark">
             <div class="text-center">
-              <div class="card-header bg-info text-white">
+              <div id="ruta" class="card-header bg-info text-white">
                 <i class="fa-solid fa-route"></i>
               </div>
             </div>
@@ -186,9 +183,9 @@
       <h3 class="text-white text-center pb-5">
         DESTACADOS
       </h3>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4">
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100 border-dark">
             <img src="./assets/img/card1.jpg" class="card-img-top" alt="..." width="50%">
             <div class="card-body text-bg-info text-white">
               <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
@@ -198,7 +195,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100 border-dark">
             <img src="./assets/img/card2.jpg" class="card-img-top" alt="..." width="50%">
             <div class="card-body text-bg-info text-white">
               <h5 class="card-title">Consectetur adipiscing elit</h5>
@@ -208,7 +205,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100 border-dark">
             <img src="./assets/img/card3.jpg" class="card-img-top" alt="..." width="50%">
             <div class="card-body text-bg-info text-white">
               <h5 class="card-title">Proin consequat rhoncus
@@ -219,7 +216,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card h-100 border-dark">
             <img src="./assets/img/card4.jpg" class="card-img-top" alt="..." width="50%">
             <div class="card-body text-bg-info text-white">
               <h5 class="card-title">At ullamcorper semper. Fusce vel</h5>
@@ -256,7 +253,7 @@
       <h2 class="text-start pt-5 px-4">
         VIAJES CHILE
       </h2>
-      <div class="text-end">
+      <div class="text-end p-5">
         <i class="fa-brands fa-square-github"></i>
         <i class="fa-brands fa-linkedin"></i>
         <i class="fa-brands fa-square-twitter"></i>
@@ -264,6 +261,7 @@
       </div>
     </section>
   </footer>
+  <!-- arreglar footer -->
 </body>
 
 </html>

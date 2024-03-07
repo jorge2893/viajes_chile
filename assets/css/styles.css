@@ -6,13 +6,15 @@ body{
 
 #tarjeta1{
     background-color: black;
+    font-size: 10px;
 }
 #tarjeta2{
     background-color: black;
+    font-size: 10px;
 }
 #tarjeta3{
     background-color: black;
-    border-color: black;
+    font-size: 10px;
 }
 .navbar{
     background-color:rgba(36, 166, 183, 0.699);
