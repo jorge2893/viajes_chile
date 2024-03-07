@@ -1,3 +1,10 @@
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+$("#navbarSupportedContent li a").click(function(){
+    $(this).css("color", "red");
+})
+
 $("#avion").click(function(){
     $("#tarjeta1").toggle();
 })
