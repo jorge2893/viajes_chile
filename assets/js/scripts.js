@@ -14,3 +14,9 @@ $("#montaña").click(function(){
 $("#ruta").click(function(){
     $("#tarjeta3").toggle();
 })
+$(".card-img-top").click(function(){
+    $("#carta1, #carta2, #carta3, #carta4").toggle();
+})
+$(function(){
+    $("$boton1").tooltip();
+})
